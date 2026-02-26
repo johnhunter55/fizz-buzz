@@ -9,9 +9,11 @@ body {
   height: 100vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(41, 39, 36);
+  gap: 80px;
 }
 button {
   background-color: rgb(77, 67, 51);
@@ -26,4 +28,10 @@ button {
 button:hover {
   background-color: rgb(51, 44, 34);
   border-color: rgb(226, 225, 213);
+}
+.output {
+  display: flex;
+  width: 80%;
+  color: white;
+  font-size: 1.5em;
 }
